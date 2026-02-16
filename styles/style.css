@@ -1,11 +1,24 @@
 html {
-  font-size: 60 px;
-  font-family: 'Quantico', bitcount-grid-double;
+  font-size: 60px;
+  background-color: #3a86ff;
+  font-family: 'Quantico', 'Bitcount Grid Double', sans-serif;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ffbe0b;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
 }
 
 h1 {
   font-size: 80px;
   text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #ff006e;
+  text-shadow: 3px 3px 1px black;
 }
 
 h2 {
@@ -19,25 +32,11 @@ p, li {
   letter-spacing: 1px;
 }
 
-html {
-  background-color: #3a86ff;
-}
-
-body {
-  width: 600px;
+img {
+  display: block;
   margin: 0 auto;
-  background-color: #ffbe0b;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  max-width: 100%;
 }
-
-h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #ff006e;
-  text-shadow: 3px 3px 1px black;
-}
-
 img {
   display: block;
   margin: 0 auto;
